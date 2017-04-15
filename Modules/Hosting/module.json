@@ -1,0 +1,17 @@
+{
+    "name": "Hosting",
+    "alias": "hosting",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Hosting\\Providers\\HostingServiceProvider",
+        "Modules\\Hosting\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "requires": []
+}

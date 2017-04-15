@@ -1,0 +1,28 @@
+Funciones disponibles:
+    $funciones = CpanelWhm::applist();
+    var_dump($funciones);
+
+Crear cuenta:
+    $crearcuenta = CpanelWhm::createacct(‘username’, ‘domain’, ‘password’);
+    return $crearcuenta[‘rawout’];
+
+
+Suspender cuenta:
+    if ($cuenta->fecha_vencimiento > now() + setting(‘hostingmodule::días-suspension))
+    {
+        CpanelWhm::suspendacct($cuenta->username, ‘Impago’);
+        $cuenta->suspended = 1;
+        $cuenta->suspendreason = ‘Impago’;
+        $cuenta->save();
+    }
+
+
+Obtener disco en uso de las cuentas:
+    $accounts = CpanelWhm::listaccts(‘want’ => [‘domain’, ‘diskused’]);
+    foreach ($accounts as $account)
+    {
+        //$cuenta = Modules\HostingModule\Entities\Cuenta::findByDomain($account[‘domain’]);
+        $cuenta = Modules\HostingModule\Entities\Cuenta::where(‘domain’, $account[‘domain’])->get();
+        $cuenta->diskusage = $account[‘diskused’];
+        $cuenta->save();
+    }
