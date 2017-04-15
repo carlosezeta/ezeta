@@ -8,7 +8,7 @@
         <li><a href="{{ route('dashboard.index') }}"><i class="fa fa-dashboard"></i> {{ trans('core::core.breadcrumb.home') }}</a></li>
         <li class="active">{{ trans('hosting::cuentas.title.cuentas') }}</li>
     </ol>
-@hosting
+@stop
 
 @section('content')
     <div class="row">
@@ -167,17 +167,17 @@
     </div>
     <?php endforeach; ?>
     <?php endif; ?>
-@hosting
+@stop
 
 @section('footer')
     <a data-toggle="modal" data-target="#keyboardShortcutsModal"><i class="fa fa-keyboard-o"></i></a> &nbsp;
-@hosting
+@stop
 @section('shortcuts')
     <dl class="dl-horizontal">
         <dt><code>c</code></dt>
         <dd>{{ trans('hosting::cuentas.title.create cuenta') }}</dd>
     </dl>
-@hosting
+@stop
 
 @section('scripts')
     <script type="text/javascript">
@@ -211,4 +211,4 @@
             });
         });
     </script>
-@hosting
+@stop
