@@ -28,7 +28,8 @@
         "idavoll/tag-module": "~2.0",
         "idavoll/flatly-theme": "~2.0",
         "idavoll/adminlte-theme": "~2.0",
-        "gufy/cpanel-whm": "dev-master"
+        "gufy/cpanel-whm": "dev-master",
+        "asgardcms/notification-module": "2.0.x-dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

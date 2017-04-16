@@ -4,8 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d3c4898659dafbf99d5a6331618329e",
+    "content-hash": "bca1a5eef49acdfb1236e3deb56ef38d",
     "packages": [
+        {
+            "name": "asgardcms/notification-module",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AsgardCms/Notification.git",
+                "reference": "f6b6a76798c4c83157d32bfaece6bbf956071c76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AsgardCms/Notification/zipball/f6b6a76798c4c83157d32bfaece6bbf956071c76",
+                "reference": "f6b6a76798c4c83157d32bfaece6bbf956071c76",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "idavoll/core-module": "~2.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.11",
+                "orchestra/testbench": "3.3.*",
+                "phpro/grumphp": "^0.9.1",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "asgard-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.0": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Notification\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Widart",
+                    "email": "n.widart@gmail.com"
+                }
+            ],
+            "description": "Module handling the real time notifications",
+            "keywords": [
+                "asgardcms",
+                "notifications",
+                "pusher"
+            ],
+            "time": "2016-10-18 06:50:47"
+        },
         {
             "name": "cartalyst/sentinel",
             "version": "v2.0.15",
@@ -5863,7 +5917,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "gufy/cpanel-whm": 20
+        "gufy/cpanel-whm": 20,
+        "asgardcms/notification-module": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
