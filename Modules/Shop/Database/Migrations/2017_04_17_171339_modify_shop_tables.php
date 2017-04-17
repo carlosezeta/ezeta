@@ -15,13 +15,13 @@ class ModifyShopTables extends Migration
     {
         Schema::table('shop__facturas', function (Blueprint $table) {
             $table->foreign('order_id')
-                ->references('id')->on('orders')
+                ->references('id')->on('shop__orders')
                 ->onDelete('cascade');
         });
 
         Schema::table('shop__items', function (Blueprint $table) {
             $table->foreign('order_id')
-                ->references('id')->on('orders')
+                ->references('id')->on('shop__orders')
                 ->onDelete('cascade');
         });
     }

@@ -51,7 +51,8 @@ class CreateShopFacturasTable extends Migration
     public function down()
     {
         Schema::table('shop__facturas', function (Blueprint $table) {
-            $table->dropForeign(['user_id','order_id']);
+            //$table->dropForeign(['user_id']);
+            //$table->dropForeign(['order_id']);
         });
         Schema::dropIfExists('shop__facturas');
     }
