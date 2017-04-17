@@ -25,9 +25,6 @@ class CreateShopItemsTable extends Migration
                 ->references('id')->on('carros')
                 ->onDelete('cascade');
             $table->integer('order_id')->unsigned()->nullable();
-            $table->foreign('order_id')
-                ->references('id')->on('orders')
-                ->onDelete('cascade');
             $table->integer('factura_id')->unsigned()->nullable();
             $table->foreign('factura_id')
                 ->references('id')->on('facturas')

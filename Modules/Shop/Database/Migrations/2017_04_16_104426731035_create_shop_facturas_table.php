@@ -20,12 +20,7 @@ class CreateShopFacturasTable extends Migration
             $table->foreign('user_id')
                 ->references('id')->on('users')
                 ->onDelete('cascade');
-            /*
             $table->integer('order_id')->unsigned()->nullable();
-            $table->foreign('order_id')
-                ->references('id')->on('orders')
-                ->onDelete('cascade');
-            */
             $table->string('direccion1')->nullable();
             $table->string('direccion2')->nullable();
             $table->string('ciudad')->nullable();
