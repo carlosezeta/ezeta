@@ -29,7 +29,8 @@
         "idavoll/flatly-theme": "~2.0",
         "idavoll/adminlte-theme": "~2.0",
         "gufy/cpanel-whm": "dev-master",
-        "asgardcms/notification-module": "2.0.x-dev"
+        "asgardcms/notification-module": "2.0.x-dev",
+        "barryvdh/laravel-ide-helper": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -62,6 +63,8 @@
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan ide-helper:generate",
+            "php artisan ide-helper:meta",
             "php artisan optimize"
         ]
     },
