@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211c6189-e52b-484e-95c7-80149b96c5e7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php" afterPath="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426731035_create_shop_facturas_table.php" afterPath="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426731035_create_shop_facturas_table.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,38 +57,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="asgardcms@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="asgardcms" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="asgardcms@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="asgardcms" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="cart" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -96,8 +64,8 @@
       <file leaf-file-name="2017_04_16_104426731035_create_shop_facturas_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426731035_create_shop_facturas_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="211">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -113,26 +81,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017_04_16_104427263066_create_shop_items_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427263066_create_shop_items_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017_04_16_104426445019_create_shop_coupon_translations_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426445019_create_shop_coupon_translations_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2017_04_16_104426191004_create_shop_coupons_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426191004_create_shop_coupons_table.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,11 +91,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017_04_16_104427791096_create_shop_orders_table.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017_04_16_104427263066_create_shop_items_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427263066_create_shop_items_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_04_16_104427791096_create_shop_orders_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_04_16_104425632972_create_shop_carros_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104425632972_create_shop_carros_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -230,10 +198,11 @@
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104425632972_create_shop_carros_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104428597142_create_shop_transaction_translations_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104425885987_create_shop_carro_translations_table.php" />
-        <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426731035_create_shop_facturas_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427263066_create_shop_items_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427517081_create_shop_item_translations_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426731035_create_shop_facturas_table.php" />
+        <option value="dbtable:/75beda39/db73e22e-1330-493c-9518-d9f22e5c7177/ezeta.migrations" />
       </list>
     </option>
   </component>
@@ -627,7 +596,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492231707428</updated>
-      <workItem from="1492231710221" duration="23520000" />
+      <workItem from="1492231710221" duration="24132000" />
     </task>
     <task id="LOCAL-00001" summary="añadido Theme: Ezetatheme">
       <created>1492242652152</created>
@@ -640,7 +609,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23520000" />
+    <option name="totallyTimeSpent" value="24132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1315" height="1040" extended-state="0" />
@@ -655,7 +624,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33480176" sideWeight="0.4911111" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37848607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2888889" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12430279" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -993,14 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104425632972_create_shop_carros_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104425885987_create_shop_carro_translations_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -1009,42 +970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426191004_create_shop_coupons_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426445019_create_shop_coupon_translations_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426985050_create_shop_factura_translations_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426731035_create_shop_facturas_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427263066_create_shop_items_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1083,8 +1012,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="306">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104425632972_create_shop_carros_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426191004_create_shop_coupons_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/75beda39/db73e22e-1330-493c-9518-d9f22e5c7177/ezeta.migrations">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426731035_create_shop_facturas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426985050_create_shop_factura_translations_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427263066_create_shop_items_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
