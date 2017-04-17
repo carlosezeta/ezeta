@@ -22,7 +22,7 @@ class CreateShopOrdersTable extends Migration
                 ->onDelete('cascade');
             $table->string('token');
             $table->timestamps();
-            $table->softDeletes()
+            $table->softDeletes();
         });
     }
 

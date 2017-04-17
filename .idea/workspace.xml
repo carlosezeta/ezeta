@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211c6189-e52b-484e-95c7-80149b96c5e7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ezeta.iml" afterPath="$PROJECT_DIR$/.idea/ezeta.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php" afterPath="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -147,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017_04_16_104427791096_create_shop_orders_table.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017_04_16_104427791096_create_shop_orders_table.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -177,11 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017_04_16_104428597142_create_shop_transaction_translations_table.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017_04_16_104428597142_create_shop_transaction_translations_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104428597142_create_shop_transaction_translations_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -235,9 +231,9 @@
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104428597142_create_shop_transaction_translations_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104425885987_create_shop_carro_translations_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104426731035_create_shop_facturas_table.php" />
-        <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427263066_create_shop_items_table.php" />
         <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427517081_create_shop_item_translations_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php" />
       </list>
     </option>
   </component>
@@ -631,7 +627,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492231707428</updated>
-      <workItem from="1492231710221" duration="23358000" />
+      <workItem from="1492231710221" duration="23520000" />
     </task>
     <task id="LOCAL-00001" summary="añadido Theme: Ezetatheme">
       <created>1492242652152</created>
@@ -644,7 +640,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23358000" />
+    <option name="totallyTimeSpent" value="23520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1315" height="1040" extended-state="0" />
@@ -1061,14 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104428045110_create_shop_order_translations_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -1087,8 +1075,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104428597142_create_shop_transaction_translations_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Shop/Database/Migrations/2017_04_16_104427791096_create_shop_orders_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding />
         </state>
       </provider>
