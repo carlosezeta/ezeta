@@ -163,7 +163,7 @@
                                         <!-- Las clases de la tabla de precios y meterlas dentro en un div o algo -->
                                         <ul class="row list-unstyled pricing-stack pricing-stack-overlaping margin-top-lg" role="menu">
                                             <!-- TODO: Quitar de aquí la llamada a Productos y asegurarse de que se pasa a todas las vistas -->
-                                            <?php if (!isset($productos)) { $productos = \Modules\HostingModule\Entities\Producto::all(); } ?>
+                                            <?php if (!isset($productos)) { $productos = \Modules\Hosting\Entities\Producto::all(); } ?>
                                             @foreach($productos as $producto)
                                             <li class="col-md-3" role="presentation">
                                                 <div class="well{{ ($producto->id==2) ? ' active' : '' }}">
